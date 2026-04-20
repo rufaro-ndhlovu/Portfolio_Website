@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-orange: var(--color-orange);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+  --font-display: var(--font-display);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #080810;
+  --foreground: #ededed;
+  --grad-primary: linear-gradient(135deg, #00d4b8, #b8a9f0, #ff6b35);
+  --grad-teal-lav: linear-gradient(135deg, #00d4b8, #b8a9f0);
+  --grad-orange-teal: linear-gradient(135deg, #ff6b35, #00d4b8);
+  --grad-lav-orange: linear-gradient(135deg, #b8a9f0, #ff6b35);
+
+  --color-teal: #00d4b8;
+  --color-orange: #ff6b35;
+  --color-lavender: #b8a9f0;
+  --color-muted: #5a5a78;
+  --color-bg: #080810;
+  --color-bg-2: #0f0f1a;
+  --color-bg-3: #141428;
+
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --animate-grad-shift: gradShift 6s ease infinite;
+  --animate-fade-up: fadeUp 0.8s ease forwards;
+  --animate-blink: blink 2s ease-in-out infinite;
+  --animate-scroll-pulse: scrollPulse 2s ease-in-out infinite;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
