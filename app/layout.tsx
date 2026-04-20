@@ -3,17 +3,17 @@ import { Syne, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 const syne = Syne({
-  variable: "--font-syne",
+  variable: "--font-display",
   subsets: ["latin"],
 });
 
 const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+  variable: "--font-body",
   subsets: ["latin"],
 });
 
 const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${syne.variable} ${dmSans.variable} ${jetBrainsMono.variable} h-full antialiased`}
+      className={`${syne.variable} ${dmSans.variable} ${jetBrainsMono.variable}`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
