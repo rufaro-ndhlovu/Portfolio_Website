@@ -89,3 +89,9 @@ body {
   background-image: var(--grad-primary);
   background-size: 200% 200%;
 }
+
+.heronamebg {
+  background-image: var(--grad-lav-orange);
+  background-size: 300% 300%;
+  opacity: 0.08;
+}
