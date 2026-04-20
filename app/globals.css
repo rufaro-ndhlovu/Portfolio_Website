@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --grad-primary: linear-gradient(135deg, #00d4b8, #b8a9f0, #ff6b35);
+  --grad-teal-lav: linear-gradient(135deg, #00d4b8, #b8a9f0);
+  --grad-orange-teal: linear-gradient(135deg, #ff6b35, #00d4b8);
+  --grad-lav-orange: linear-gradient(135deg, #b8a9f0, #ff6b35);
 }
 
 @theme inline {
