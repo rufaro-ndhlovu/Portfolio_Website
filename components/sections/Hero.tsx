@@ -29,6 +29,7 @@ export default function Hero() {
             Building interfaces that look good, work perfectly, and feel
             effortless on every screen, for every user.
           </p>
+          <br />
           <GradientButton onClick={handleClick}>VIEW MY WORK</GradientButton>
         </div>
         <div className="absolute">
