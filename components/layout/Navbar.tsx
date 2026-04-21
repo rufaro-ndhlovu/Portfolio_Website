@@ -1,10 +1,17 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
+import GradientButton from "../ui/GradientButton";
 
 export default function Navbar() {
+  const handleClick = () => {
+    return;
+  };
+
   return (
     <>
-      <nav className="flex items-center justify-between w-full py-6 px-16 bg-background sticky top-0 z-50 backdrop-blur-md border-b border-[var(--border)]">
+      <nav className="flex items-center justify-between w-full py-4 px-16 bg-background sticky top-0 z-50 backdrop-blur-md border-b border-[var(--border)]">
         {/*logo*/}
         <h1 className="logo text-3xl font-bold animate-grad-shift text-transparent bg-clip-text">
           RN
@@ -27,9 +34,7 @@ export default function Navbar() {
         </div>
 
         {/*lets chat button*/}
-        <button className="btn-gradient px-6 py-2 rounded-full">
-          LETS CHAT!
-        </button>
+        <GradientButton onClick={handleClick}>LETS CHAT!</GradientButton>
       </nav>
     </>
   );

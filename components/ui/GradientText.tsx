@@ -1,5 +1,3 @@
-import { Children } from "react";
-
 type Props = {
   gradient: string;
   children: React.ReactNode;

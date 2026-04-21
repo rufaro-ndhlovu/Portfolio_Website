@@ -85,6 +85,11 @@ body {
   background-size: 200% 200%;
 }
 
+.btn-gradient:hover {
+  background: var(--grad-lav-orange);
+  background-size: 200% 200%;
+}
+
 .logo {
   background-image: var(--grad-primary);
   background-size: 200% 200%;
@@ -94,8 +99,4 @@ body {
   background-image: var(--grad-lav-orange);
   background-size: 300% 300%;
   opacity: 0.08;
-}
-
-.gradientText {
-  background-image: var(--grad-primary);
 }
