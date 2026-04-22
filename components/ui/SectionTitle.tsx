@@ -5,7 +5,7 @@ type Props = {
 export default function SectionTitle({ children }: Props) {
   return (
     <>
-      <div className="text">
+      <div className="font-bold text-2xl leading-[1.2]">
         <h2>{children}</h2>
       </div>
     </>

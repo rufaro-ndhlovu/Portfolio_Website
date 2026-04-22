@@ -19,16 +19,16 @@ export default function Navbar() {
 
         {/*nav links*/}
         <div className="flex items-center justify-between gap-8 sm:hidden md:flex lg:flex">
-          <Link href="/about" className="text-foreground hover:text-orange">
+          <Link href="/about" className="text-foreground">
             ABOUT
           </Link>
-          <Link href="/skills" className="text-foreground hover:text-orange">
+          <Link href="/skills" className="text-foreground">
             SKILLS
           </Link>
-          <Link href="/projects" className="text-foreground hover:text-orange">
+          <Link href="/projects" className="text-foreground">
             PROJECTS
           </Link>
-          <Link href="/contact" className="text-foreground hover:text-orange">
+          <Link href="/contact" className="text-foreground">
             CONTACT
           </Link>
         </div>
