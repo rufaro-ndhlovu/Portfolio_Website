@@ -6,7 +6,7 @@ type Props = {
 export default function SkillCard({ children, title }: Props) {
   return (
     <div
-      className="border border-[var(--border)] rounded-lg p-4"
+      className="border rounded-lg p-4 w-auto"
       style={{
         backgroundColor: "var(--color-bg-2)",
         borderTop: "4px solid var(--color-orange)",
