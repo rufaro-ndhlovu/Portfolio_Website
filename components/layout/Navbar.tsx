@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-between w-full py-4 px-16 bg-background sticky top-0 z-50 backdrop-blur-md border-b border-[var(--border)]">
+      <nav className="flex items-center justify-between w-full py-4 px-16 bg-background sticky top-0 z-100 backdrop-blur-md border-b border-[var(--border)]">
         {/*logo*/}
         <h1 className="logo text-3xl font-bold animate-grad-shift text-transparent bg-clip-text">
           RN

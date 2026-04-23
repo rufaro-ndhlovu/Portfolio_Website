@@ -59,13 +59,14 @@ export default function About() {
             </div>
 
             {/* tags */}
-            <div className="flex flex-wrap gap-4 mt-6">
+            <div className="flex flex-wrap gap-3 mt-6">
               <AboutTag colour="teal">React</AboutTag>
               <AboutTag colour="orange">Next.js</AboutTag>
               <AboutTag colour="lavender">TypeScript</AboutTag>
               <AboutTag colour="teal">SQL</AboutTag>
-              <AboutTag colour="orange">problem Solving</AboutTag>
-              <AboutTag colour="lavender">REST APIs</AboutTag>
+              <AboutTag colour="orange">PHP</AboutTag>
+              <AboutTag colour="lavender">problem Solving</AboutTag>
+              <AboutTag colour="teal">REST APIs</AboutTag>
             </div>
           </div>
         </div>
