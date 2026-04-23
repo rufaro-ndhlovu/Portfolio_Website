@@ -12,7 +12,7 @@ export default function SkillsTag({ children, colour }: Props) {
   return (
     <>
       <div
-        className="text-white font-bold py-2 px-5"
+        className="text-white font-bold py-1 px-3 border rounded-full border mb-2"
         style={{
           backgroundColor: `color-mix(in srgb, ${colorMap[colour]} 15%, transparent)`,
           borderColor: colorMap[colour],
