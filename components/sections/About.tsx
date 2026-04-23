@@ -2,6 +2,7 @@
 import React from "react";
 import SectionLabel from "../ui/SectionLabel";
 import SectionTitle from "../ui/SectionTitle";
+import AboutTag from "../ui/AboutTag";
 
 export default function About() {
   return (
@@ -17,7 +18,6 @@ export default function About() {
             className=" font-bold text-5xl w-50 flex items-center justify-center px-7 py-7 bg-clip-text text-transparent"
             style={{
               backgroundImage: "var(--grad-lav-orange)",
-              border: "1px solid var(--grad-lav-orange)",
             }}
           >
             <h2>RN</h2>
@@ -49,13 +49,23 @@ export default function About() {
               developed full-stack applications from scratch.
             </p>
             <br />
-            <div className="">
+            <div className="mb-2">
               <p className="italic border-l-[var(--color-teal)] border-l-4 pl-4 px-5 py-6">
                 "The best part of development is watching someone use something
                 I built from{" "}
                 <span className="text-[var(--color-teal)]">nothing</span>. That
                 never gets old."
               </p>
+            </div>
+
+            {/* tags */}
+            <div className="flex flex-wrap gap-4 mt-6">
+              <AboutTag colour="teal">React</AboutTag>
+              <AboutTag colour="orange">Next.js</AboutTag>
+              <AboutTag colour="lavender">TypeScript</AboutTag>
+              <AboutTag colour="teal">SQL</AboutTag>
+              <AboutTag colour="orange">problem Solving</AboutTag>
+              <AboutTag colour="lavender">REST APIs</AboutTag>
             </div>
           </div>
         </div>
