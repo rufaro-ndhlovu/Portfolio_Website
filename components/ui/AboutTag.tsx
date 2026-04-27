@@ -13,7 +13,7 @@ export default function AboutTag({ children, colour }: Props) {
   return (
     <>
       <div
-        className="text-white py-1 px-3 rounded-full border"
+        className="text-white text-xs py-1 px-2 rounded-full border"
         style={{
           backgroundColor: `color-mix(in srgb, ${colorMap[colour]} 15%, transparent)`,
           borderColor: colorMap[colour],

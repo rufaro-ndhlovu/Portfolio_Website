@@ -3,14 +3,16 @@ import React from "react";
 import SectionLabel from "../ui/SectionLabel";
 import SectionTitle from "../ui/SectionTitle";
 import AboutTag from "../ui/AboutTag";
+import GradientText from "../ui/GradientText";
 
 export default function About() {
   return (
     <>
-      <div className="px-3 py-3">
+      <div className="px-3 py-3 bg-[var(--color-bg-2)]">
         <SectionLabel>Who I am</SectionLabel>
         <SectionTitle>
-          Front-end developer who cares about how it feels to use software
+          Front-end developer who cares about{" "}
+          <GradientText>how it feels</GradientText> to use software
         </SectionTitle>
         <br />
         <div className="flex flex-row align-center border-l-[var(--color-teal)]  gap-8 px-2 py-4">
@@ -50,7 +52,7 @@ export default function About() {
             </p>
             <br />
             <div className="mb-2">
-              <p className="italic border-l-[var(--color-teal)] border-l-4 pl-4 px-5 py-6">
+              <p className="italic border-l-[var(--color-teal)] bg-[var(--color-bg-3)] border-l-4 pl-4 px-5 py-6">
                 "The best part of development is watching someone use something
                 I built from{" "}
                 <span className="text-[var(--color-teal)]">nothing</span>. That
@@ -65,7 +67,7 @@ export default function About() {
               <AboutTag colour="lavender">TypeScript</AboutTag>
               <AboutTag colour="teal">SQL</AboutTag>
               <AboutTag colour="orange">PHP</AboutTag>
-              <AboutTag colour="lavender">problem Solving</AboutTag>
+              <AboutTag colour="lavender">Problem Solving</AboutTag>
               <AboutTag colour="teal">REST APIs</AboutTag>
             </div>
           </div>
