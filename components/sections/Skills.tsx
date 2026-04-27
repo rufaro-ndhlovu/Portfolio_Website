@@ -13,12 +13,13 @@ export default function Skills() {
         {/* section label and title */}
         <SectionLabel>WHAT I WORK WITH</SectionLabel>
         <SectionTitle>
-          Core<GradientText gradient="grad-primary">skills</GradientText>
+          Core <GradientText>skills</GradientText>
         </SectionTitle>
+        <br />
 
         {/* skill cards */}
-        <div className="grid grid-cols-3">
-          <div className="mt-3 w-100 flex flex-wrap">
+        <div className="grid grid-cols-3 gap-4">
+          <div>
             <SkillCard title="Languages">
               <SkillsTag colour="teal">JavaScript ES6+</SkillsTag>
               <SkillsTag colour="lavender">TypeScript</SkillsTag>
@@ -30,7 +31,7 @@ export default function Skills() {
           </div>
 
           {/* frameworks and ui */}
-          <div className="mt-3 w-auto flex flex-wrap">
+          <div>
             <SkillCard title="Frameworks and UI">
               <SkillsTag colour="teal">React</SkillsTag>
               <SkillsTag colour="teal">Next.js</SkillsTag>
@@ -41,7 +42,7 @@ export default function Skills() {
           </div>
 
           {/* Back-end and data*/}
-          <div className="mt-3 w-auto flex flex-wrap">
+          <div>
             <SkillCard title="Back-end and Data">
               <SkillsTag colour="teal">Node.js</SkillsTag>
               <SkillsTag colour="lavender">MariaDB</SkillsTag>
@@ -53,7 +54,7 @@ export default function Skills() {
           </div>
 
           {/* Forms & state*/}
-          <div className="mt-3 w-100 flex flex-wrap">
+          <div>
             <SkillCard title="Forms & state">
               <SkillsTag colour="teal">Rest APIs</SkillsTag>
               <SkillsTag colour="lavender">Redux</SkillsTag>
@@ -63,7 +64,7 @@ export default function Skills() {
           </div>
 
           {/* Tooling*/}
-          <div className="mt-3 w-auto flex flex-wrap">
+          <div>
             <SkillCard title="Tooling">
               <SkillsTag colour="teal">Git / GitHub</SkillsTag>
               <SkillsTag colour="lavender">Agile / Scrum</SkillsTag>
@@ -74,7 +75,7 @@ export default function Skills() {
           </div>
 
           {/* Accesibility*/}
-          <div className="mt-3 w-auto flex flex-wrap">
+          <div>
             <SkillCard title="Accesibility">
               <SkillsTag colour="teal">WCAG 2.1 AA</SkillsTag>
               <SkillsTag colour="lavender">Semantic HTML</SkillsTag>

@@ -3,6 +3,7 @@ import React from "react";
 import SectionLabel from "../ui/SectionLabel";
 import SectionTitle from "../ui/SectionTitle";
 import AboutTag from "../ui/AboutTag";
+import GradientText from "../ui/GradientText";
 
 export default function About() {
   return (
@@ -10,7 +11,8 @@ export default function About() {
       <div className="px-3 py-3">
         <SectionLabel>Who I am</SectionLabel>
         <SectionTitle>
-          Front-end developer who cares about how it feels to use software
+          Front-end developer who cares about{" "}
+          <GradientText>how it feels</GradientText> to use software
         </SectionTitle>
         <br />
         <div className="flex flex-row align-center border-l-[var(--color-teal)]  gap-8 px-2 py-4">
