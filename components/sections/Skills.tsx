@@ -9,7 +9,7 @@ import SkillCard from "../ui/SkillCard";
 export default function Skills() {
   return (
     <>
-      <div className="px-5 py-5">
+      <div className="px-5 py-5 pt-5">
         {/* section label and title */}
         <SectionLabel>WHAT I WORK WITH</SectionLabel>
         <SectionTitle>
@@ -18,7 +18,7 @@ export default function Skills() {
         <br />
 
         {/* skill cards */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4 sm:grid-cols-2">
           <div>
             <SkillCard title="Languages">
               <SkillsTag colour="teal">JavaScript ES6+</SkillsTag>

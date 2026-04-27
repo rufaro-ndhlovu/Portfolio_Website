@@ -103,7 +103,6 @@ body {
 .skillCard {
   position: relative;
   overflow: hidden;
-  background-color: var(--color-bg-2);
 }
 .skillCard::before {
   content: "";

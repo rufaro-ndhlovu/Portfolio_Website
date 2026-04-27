@@ -14,7 +14,7 @@ export default function SkillsTag({ children, colour }: Props) {
     <>
       {/* Use the colorMap to set the background color and border color based on the colour prop */}
       <div
-        className="text-white py-1 px-3 border rounded-full border mb-2"
+        className="text-white text-sm py-1 px-3 rounded-full border mb-2"
         style={{
           backgroundColor: `color-mix(in srgb, ${colorMap[colour]} 15%, transparent)`,
           borderColor: colorMap[colour],
